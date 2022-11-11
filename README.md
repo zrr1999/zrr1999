@@ -1,7 +1,8 @@
 ##  个人信息
 
 - 詹荣瑞
-- 西安电子科技大学2018级智能科学与技术专业本科生
+- 西安电子科技大学计算机科学与技术在读硕士
+- 飞桨开发者专家（PPDE）
 - Github：[http://github.com/zrr1999](http://github.com/zrr1999) 
 
 <div class="half">
