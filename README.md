@@ -2,7 +2,7 @@
 
 - 🎓 Xidian University, Master of Computer Science
 - 💻 [Paddle Committer](https://github.com/PaddlePaddle/Paddle/issues/55384)
-- 🔗 [blog.bone6.com](https://blog.bone6.com/) 
+- 🔗 [blog.sixbones.dev](https://blog.sixbones.dev/) 
 
 
 ### Tech Stacks
