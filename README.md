@@ -1,8 +1,8 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hello!+I'm+Zhan+Rongrui.)](https://git.io/typing-svg)
 
+- 🔗 [sixbones.dev](https://sixbones.dev/) 
 - 🎓 Xidian University, Master of Computer Science
 - 💻 [Paddle Committer](https://github.com/PaddlePaddle/Paddle/issues/55384)
-- 🔗 [blog.sixbones.dev](https://blog.sixbones.dev/) 
 
 
 ### Tech Stacks
