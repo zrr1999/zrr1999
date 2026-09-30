@@ -13,7 +13,9 @@ Spore 的 GitHub 组织门面和默认社区文件。首页区分语言实现、
 
 项目里已经有对应文件时，用项目自己的。这些默认文件不会进入项目的 clone。Issue 模板是整组覆盖。
 
-`spore`、`basic-cli`、`spore-evolution`、`spore-lang.dev` 已经有自己的 PR 模板，组织默认模板不会替换它们。`spore-evolution` 的提案模板继续留在那个仓库。
+`spore`、`basic-cli`、`spore-evolution`、`spore-lang.dev` 已经有自己的 PR 模板，组织默认 PR 模板不会替换它们。
+
+`spore-evolution` 目前没有自己的 Issue 模板。组织模板一旦发布，它会整组继承这里的缺陷报告和功能请求，而这两份表格是把“修改语言语义”推回 `spore-evolution` 的。发布前先在 `spore-evolution` 放上一组完整的本地 Issue 模板，让提案仓库继续使用自己的入口。只放一份 `config.yml` 不够，那样组织模板也不会再被补上。
 
 ## 编辑时守住的边界
 
