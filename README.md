@@ -6,9 +6,9 @@
 
 完整介绍在 [zrr.dev](https://zrr.dev)。这里保留身份、方向，以及三个组织的入口。
 
-## 工作放在这里
+## Work
 
-| 组织 | 在做的事 |
+| Organization | Focus |
 | --- | --- |
 | [Zendev Lab](https://github.com/zendev-lab) | 开发工具与实验 |
 | [Spore](https://github.com/spore-lang) | 实验性编程语言 |
@@ -16,7 +16,7 @@
 
 项目说明以各组织首页和对应仓库为准。
 
-## 其他
+## Elsewhere
 
 - 博客：[blog.zrr.dev](https://blog.zrr.dev)
 - 幻灯片：[slides.zrr.dev](https://slides.zrr.dev)
