@@ -1,0 +1,35 @@
+name: Feature request
+description: A change to a public Volvox repository, or to this organization's GitHub entry.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem and which property should still hold if a component changes. There is no public design tracker yet. Use this form for a change to a public repository.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: The public repository that should own this change.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or impossible today?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What would be true after this change, and which property must still hold?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How to judge it
+      description: What comparison, reproduction, or measurement would show that the change worked?
+    validations:
+      required: true

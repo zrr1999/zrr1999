@@ -1,0 +1,44 @@
+name: Bug report
+description: A published result or behavior that fails under its stated conditions.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Include enough information to reproduce the failure. A numerical or performance claim needs the condition under which it was measured. A proposal to change the framework design belongs in a discussion, not in this form.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this report?
+      options:
+        - A defect in a public repository
+        - A numerical or performance result that does not hold under its stated conditions
+        - A problem with the organization profile or these default community files
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: The public repository that published the behavior or the result. Use `.github` for this organization page.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened, or which stated claim failed?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Conditions
+      description: Revision, command, data or shape, seed, and hardware when the result depends on them.
+    validations:
+      required: true

@@ -1,0 +1,44 @@
+name: Bug report
+description: A defect in a project, or a problem with this organization's GitHub entry.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Zendev, Spark, and Cue own different problems. Report the defect in the repository that owns the behavior. Usage questions belong in the project documentation.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this report?
+      options:
+        - A defect in a project repository
+        - A problem with the organization profile, a default community file, or a public link on that page
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: The repository that owns the behavior. Use `.github` for this organization page.
+      placeholder: zendev
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include the version or revision, and the steps or command that show it.
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Tool boundary
+      description: If this might belong to a different Zendev Lab tool, say which one should own it.
+      placeholder: This belongs to Cue, because it is about process lifetime.

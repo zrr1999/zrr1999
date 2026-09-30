@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Zendev documentation
+    url: https://docs.zendev.zrr.dev/
+    about: Usage and concepts for the Zendev toolkit.
+  - name: Spark documentation
+    url: https://docs.spark.zrr.dev/
+    about: Usage for the Spark coding-agent runtime.
+  - name: Cue repository
+    url: https://github.com/zendev-lab/cue
+    about: Cue behavior and usage. Cue has no separate documentation site.
+  - name: Security report
+    url: https://github.com/zendev-lab/.github/blob/main/SECURITY.md
+    about: Report a vulnerability in private. Public issues are the wrong channel.

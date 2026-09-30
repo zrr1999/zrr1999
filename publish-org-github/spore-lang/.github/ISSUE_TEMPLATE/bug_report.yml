@@ -1,0 +1,44 @@
+name: Bug report
+description: The implementation disagrees with behavior that is already specified.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when an implementation misses behavior that a document or an accepted proposal already states. A request to change what the language means belongs in spore-evolution.
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - spore
+        - basic-cli
+        - spore-lang.dev
+        - Another public repository in this organization
+    validations:
+      required: true
+  - type: input
+    id: other-repository
+    attributes:
+      label: Other repository
+      description: Fill this in when you chose "Another public repository".
+  - type: textarea
+    id: expected
+    attributes:
+      label: Specified behavior
+      description: What should happen, and where is that behavior specified? Link the document or accepted proposal.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What the implementation does
+      description: Include a minimal example and the version or revision.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This report is a defect against behavior that is already specified. I am not asking to change the language.
+          required: true

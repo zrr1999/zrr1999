@@ -1,0 +1,39 @@
+name: Feature request
+description: A tool, platform, documentation, or ecosystem change that keeps the current language semantics.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Language semantics, the type system, and cross-cutting protocols go through spore-evolution. This form is for the surrounding toolchain, platforms, docs, and websites.
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - spore
+        - basic-cli
+        - spore-lang.dev
+        - Another public repository in this organization
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or impossible today?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What would a user be able to do after this change?
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This request keeps the current language semantics. A change to those semantics will be filed in spore-evolution instead.
+          required: true

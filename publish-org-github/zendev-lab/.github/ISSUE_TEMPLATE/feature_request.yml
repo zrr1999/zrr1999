@@ -1,0 +1,36 @@
+name: Feature request
+description: A change to a Zendev Lab tool, or to this organization's GitHub entry.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem and which tool should own the solution. A change that absorbs another tool's job needs a discussion before a patch.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: The repository that should own this change.
+      placeholder: spark
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or impossible today, and who hits it?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What would a user or caller be able to do after this change?
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Why this repository
+      description: Why this tool should own the change, and why it should stay out of the other tools.
+    validations:
+      required: true

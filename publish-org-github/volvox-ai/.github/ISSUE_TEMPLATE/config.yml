@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Organization profile
+    url: https://github.com/volvox-ai
+    about: Public direction of the work. There is no public documentation site yet.
+  - name: Security report
+    url: https://github.com/volvox-ai/.github/blob/main/SECURITY.md
+    about: Report a vulnerability in private. Public issues are the wrong channel.
